@@ -49,6 +49,7 @@ If the two packages were installed, you close the terminal windows and open the 
 ### Usage information
 
 First, create a new project and open the PCB. Now you have a blank PCB. Open the plugin with the icon:
+
 ![icon-and-gui-window](icon.png)
 
 
