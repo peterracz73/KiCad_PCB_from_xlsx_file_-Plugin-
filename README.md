@@ -42,3 +42,8 @@ pip install openpyxl
 ```
 
 If the python or pip commands run to error, you need to include their paths of commands to the computer paths.  For example [this](https://www.computerhope.com/issues/ch000549.htm).
+
+If the two packages were installed, you close the terminal windows and open the KiCad program.  After the program is running select the Plugin and Content Manager, then a window pops up. Here push the Install from File... button.
+
+Please browse and load the downloaded zip file, then the KiCad program installs the plugin.
+
