@@ -47,3 +47,5 @@ If the two packages were installed, you close the terminal windows and open the 
 
 Please browse and load the downloaded zip file, then the KiCad program installs the plugin.
 
+
+### Usage information
