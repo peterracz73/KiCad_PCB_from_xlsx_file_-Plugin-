@@ -43,9 +43,19 @@ pip install openpyxl
 
 If the python or pip commands run to error, you need to include their paths of commands to the computer paths.  For example [this](https://www.computerhope.com/issues/ch000549.htm).
 
-If the two packages were installed, you close the terminal windows and open the KiCad program.  After the program is running select the Plugin and Content Manager, then a window pops up. Here push the Install from File... button.
-
-Please browse and load the downloaded zip file, then the KiCad program installs the plugin.
+If the two packages were installed, you close the terminal windows and open the KiCad program.  After the program is running select the Plugin and Content Manager, then a window pops up. Here push the Install from File... button. Please browse and load the downloaded zip file, then the KiCad program installs the plugin.
 
 
 ### Usage information
+
+First, create a new project and open the PCB. Now you have a blank PCB. Open the plugin with the icon:
+![icon-and-gui-window](icon.png)
+
+
+## Example xlsx file
+
+
+
+## License
+
+This project is distributed under the terms of the [MIT](https://github.com/peterracz73/KiCad_PCB_from_xlsx_file_-Plugin-/blob/main/LICENSE) license.
