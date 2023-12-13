@@ -28,9 +28,17 @@ This is a project for the easy to make a PCB design from a xlsx file. The file i
 
 The KiCad program is based on the Python programming language, so the language of this extension is also Python. You need some packages to run the program. Need the PIP and the openpyxl packages.
 
-First task install the PIP on the Python:
-
 Use the command terminal.
+
+First task install the PIP on the Python:
 ```shell
 python get-pip.py
 ```
+
+The second task install the opensyxl package:
+
+```shell
+pip install openpyxl
+```
+
+If the python or pip commands run to error, you need to include their paths of commands to the computer paths.  For example [this](https://www.computerhope.com/issues/ch000549.htm).
