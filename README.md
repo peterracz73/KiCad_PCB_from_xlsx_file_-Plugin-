@@ -48,12 +48,32 @@ If the two packages were installed, you close the terminal windows and open the 
 
 ### Usage information
 
-First, create a new project and open the PCB. Now you have a blank PCB. Open the plugin with the icon:
+First, create a new project and open the PCB. Now you have a blank PCB. Open the plugin with the icon from then menu bar:
 
 ![icon-and-gui-window](icon.png)
 
+Then the plugin opened a window, where you can browse the source xlsx file. If you selected the file and wrote the offset values, you can start the process with the "Start process" button.
+
+After the plugin was running, the KiCad show the components and networks on the PCB.
+
+The plugin can insert shapes:
+- offset cordinates
+- measure points (Spear, Flat, Crown)
+- electrical parts
+- corner points
+- pins of parts
+- text
+
+The example file includes example from shapes and syntaxis.
+
+
 
 ## Example xlsx file
+
+The example file includes example from shapes and syntaxis.
+
+[Download file](https://github.com/peterracz73/KiCad_PCB_from_xlsx_file_-Plugin-/raw/main/BoardSource.xlsx)
+
 
 
 
