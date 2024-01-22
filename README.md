@@ -79,8 +79,14 @@ The example file includes example from shapes and syntaxis.
 
 The example file includes example from shapes and syntaxis.
 
+IMPORTANT:
+The example file does not contain the full footprints paths, so you will need incluse this to the excel table.
+
 [Download file](https://github.com/peterracz73/KiCad_PCB_from_xlsx_file_-Plugin-/raw/main/BoardSource.xlsx)
 
+The used footprints files: 
+
+[Download file](https://github.com/peterracz73/KiCad_PCB_from_xlsx_file_-Plugin-/raw/main/KiCadFootprints.pretty.zip)
 
 Columns mean in the file:
 
