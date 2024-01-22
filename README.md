@@ -31,14 +31,21 @@ The KiCad program is based on the Python programming language, so the language o
 Use the command terminal.
 
 First task install the PIP on the Python:
+
+Version one:
 ```shell
 python get-pip.py
+```
+
+Version two:
+```shell
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
 
 The second task install the opensyxl package:
 
 ```shell
-pip install openpyxl
+python -m pip install openpyxl
 ```
 
 If the python or pip commands run to error, you need to include their paths of commands to the computer paths.  For example [this](https://www.computerhope.com/issues/ch000549.htm).
