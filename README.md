@@ -22,7 +22,7 @@ Project for **[KiCad](https://www.kicad.org/)** action plugins with **[openpyxl]
 
 ## How to use
 
-This is a project for the easy to make a PCB design from a xlsx file. The file includes all information from the PCB. Included the electrical parts, measure points, other information, and the all connections of the part's pins.
+This is a project made for KiCad 6 and you can easy to make a PCB design from a xlsx file. The file includes all information from the PCB. For example Include the electrical parts, measure points, other information, and the all connections of the part's pins.
 
 ### Install plugin
 
@@ -30,14 +30,15 @@ The KiCad program is based on the Python programming language, so the language o
 
 Use the command terminal.
 
+Please check the system path need contain the path of python command (example path of python: C:\Program Files\KiCad\6.0\bin):
+
+```shell
+python --version
+```
+If the python or pip commands run to error, you need to include their paths of commands to the computer paths.  For example [this](https://www.computerhope.com/issues/ch000549.htm).
+
 First task install the PIP on the Python:
 
-Version one:
-```shell
-python get-pip.py
-```
-
-Version two:
 ```shell
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
@@ -48,7 +49,6 @@ The second task install the opensyxl package:
 python -m pip install openpyxl
 ```
 
-If the python or pip commands run to error, you need to include their paths of commands to the computer paths.  For example [this](https://www.computerhope.com/issues/ch000549.htm).
 
 If the two packages were installed, you close the terminal windows and open the KiCad program.  After the program is running select the Plugin and Content Manager, then a window pops up. Here push the Install from File... button. Please browse and load the downloaded zip file, then the KiCad program installs the plugin.
 
